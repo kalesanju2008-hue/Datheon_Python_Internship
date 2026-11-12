@@ -63,26 +63,25 @@ A Python utility that organizes files into category folders based on their file 
 Datheon_Python_Internship/
 │
 ├── Task_1_Hangman/
-│   ├── hangman.py
-│   └── README.md
+│   ├── README.md
+│   └── hangman.py
 │
 ├── Task_2_Stock_Portfolio_Tracker/
+│   ├── README.md
 │   ├── portfolio.py
-│   ├── portfolio_summary.csv
-│   └── README.md
+│   └── portfolio_summary.csv
 │
 ├── Task_3_Rule_Based_Chatbot/
 │   ├── Chatbot.py
-│   ├── sample_faq.json
-│   └── README.md
+│   ├── README.md
+│   └── sample_faq.json
 │
 ├── Task_4_File_Organizer/
-│   ├── organizer.py
-│   └── README.md
+│   ├── README.md
+│   └── organizer.py
 │
 └── README.md
 ```
-
 ## Installation and Setup
 
 ### 1. Install Python
