@@ -1,0 +1,53 @@
+{
+    "faqs": [
+        {
+            "intent": "business_hours",
+            "patterns": [
+                "\\b(hours?|opening hours?|working hours?|timings?|when.*open|when.*close)\\b"
+            ],
+            "response": "Our business hours are Monday to Friday, 9:00 AM to 6:00 PM. We are closed on weekends."
+        },
+        {
+            "intent": "returns",
+            "patterns": [
+                "\\b(return|returns|refund|refunded|exchange|replace|replacement)\\b"
+            ],
+            "response": "You can request a return or exchange within 7 days of delivery, provided the item is unused and in its original packaging."
+        },
+        {
+            "intent": "shipping",
+            "patterns": [
+                "\\b(ship|shipping|delivery|deliver|dispatch|tracking|track order)\\b"
+            ],
+            "response": "Standard delivery usually takes 3\u20135 business days. Use your order ID on the tracking page to check its status."
+        },
+        {
+            "intent": "payment",
+            "patterns": [
+                "\\b(payment|pay|paid|credit card|debit card|upi|cash on delivery|cod)\\b"
+            ],
+            "response": "We accept major credit/debit cards, UPI, and cash on delivery where available."
+        },
+        {
+            "intent": "products",
+            "patterns": [
+                "\\b(product|products|catalog|items|available|availability|features?)\\b"
+            ],
+            "response": "You can browse our product catalogue to see available items, features, and prices. Tell me the product name if you need details."
+        },
+        {
+            "intent": "contact",
+            "patterns": [
+                "\\b(contact|support|customer care|phone number|email|speak to|human|agent)\\b"
+            ],
+            "response": "You can contact customer support at support@example.com or call 1800-000-000."
+        },
+        {
+            "intent": "order_status",
+            "patterns": [
+                "\\b(order status|where is my order|my order|order number|order id)\\b"
+            ],
+            "response": "I can help with order status. Please check the tracking page using your order ID. This demo chatbot does not access live order records."
+        }
+    ]
+}
