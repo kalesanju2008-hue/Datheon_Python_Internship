@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 Rule-Based Interactive Terminal Assistant / Chatbot
 
